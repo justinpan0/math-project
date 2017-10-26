@@ -1,4 +1,4 @@
-fileID = fopen("MIDETROI.txt");
+fileID = fopen('MIDETROI.txt');
 temp = textscan(fileID, '%d %d %d %f64');
 year = 1995;
 day = 1;
